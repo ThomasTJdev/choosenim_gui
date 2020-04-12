@@ -1,0 +1,17 @@
+<style>button{width: 170px;}</style>
+<h1 style="text-align: center; margin: 0;">Choosenim GUI</h1>
+<fieldset style="text-align: center;">
+  <legend>Commands</legend>
+  <button onclick="api.cnShow()">Show selected</button>
+  <button onclick="api.cnListInstalled()">List Installed</button>
+  <button onclick="api.cnListAll()">List All</button>
+  <br>
+  <button onclick="api.cnSelect()">Choose</button>
+  <button onclick="api.cnUpdate()">Update</button>
+  <button onclick="api.cnInstall()">Install</button>
+</fieldset>
+<br>
+<fieldset>
+  <legend>Results</legend>
+  <div id="versions"></div>
+</fieldset>
